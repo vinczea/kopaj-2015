@@ -1,3 +1,7 @@
-/**
- * Router configuration.
- */
+Router.configure({
+    layoutTemplate: 'layout'
+});
+
+Router.route("/", {
+    name: "homeIndex"
+});
